@@ -56,6 +56,7 @@
 
 ## Parte 1.9 - Escalabilidad vertical
 
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diez.PNG)
 
 ## Parte 1.10 - Escalabilidad vertical
 
