@@ -1,7 +1,8 @@
 # FibonacciApp
-# Arquitecturas de Software - ARSW
-# Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
+# Arquitecturas de Software - ARSW
+
+# Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
 ## Parte 0 - Entendiendo el escenario de calidad
 
