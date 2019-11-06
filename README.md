@@ -53,3 +53,11 @@
 ## Parte 1.8 - Escalabilidad vertical
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/novena.PNG)
+
+## Parte 1.9 - Escalabilidad vertical
+
+
+## Parte 1.10 - Escalabilidad vertical
+
+
+## Parte 1.11 - Escalabilidad vertical
