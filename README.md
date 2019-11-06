@@ -39,3 +39,17 @@
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/sextaB.PNG)
 
 ## Parte 1.6 - Escalabilidad vertical
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/septima.PNG)
+
+## Parte 1.7 - Escalabilidad vertical
+
+- 1000000
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/octavaA.PNG)
+
+- 1090000
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/octavaB.PNG)
+
+## Parte 1.8 - Escalabilidad vertical
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/novena.PNG)
