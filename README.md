@@ -64,6 +64,25 @@
 
 ## Parte 1.10 - Escalabilidad vertical
 
-
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/size.PNG)
 
 ## Parte 1.11 - Escalabilidad vertical
+
+De nuevo parte 7:
+ 
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/1010000Mejorado.PNG)
+
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/1030000M.PNG)
+
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/1050000.PNG)
+
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/1090000M.PNG)
+
+De nuevo parte 8: 
+
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/mejorado.PNG)
+
