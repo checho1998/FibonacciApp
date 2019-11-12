@@ -90,10 +90,39 @@ De nuevo parte 8:
 **Preguntas**
 
 1. ¿Cuántos y cuáles recursos crea Azure junto con la VM?
+
+ - R// Microsoft azure para cada maquina virtual crea 3 recursos en paralelo
+ 
 2. ¿Brevemente describa para qué sirve cada recurso?
+
+ - postman96: Este recurso es el encargado de manejar las interfaces de red en la maquina virtual
+ - postman-ip: Este recurso es el encargado de maneja la direccion IP publica de la maquina virtual 
+ - postman-nsg: Este recurso es el encargado de manejar en la maquina virtual los grupos
+ 
+ 
 3. ¿Al cerrar la conexión ssh con la VM, por qué se cae la aplicación que ejecutamos con el comando `npm FibonacciApp.js`? ¿Por qué debemos crear un *Inbound port rule* antes de acceder al servicio?
+ 
+ R//:  Al cerrar la conexión ssh con la Maquina Virtual , el proceso en la aplicacion que se esta ejecutando se detiene ya que es   corrido desde la consola y al cerrarla se cae.
+ 
+ Tenemos que crear un *Inbound port rule* para que otras personas puedan ingresar a nuestra aplicacion desde otro pc con internet.
+ 
 4. Adjunte tabla de tiempos e interprete por qué la función tarda tando tiempo.
+   - 1000000 : 22.88s
+   - 1010000 : 23.79s
+   - 1020000 : 24.33s
+   - 1030000 : 24.94s
+   - 1040000 : 25.51s
+   - 1050000 : 25.89s
+   - 1060000 : 26.22s
+   - 1070000 : 26.87s
+   - 1080000 : 27.63s
+   - 1090000 : 28.10s
 5. Adjunte imágen del consumo de CPU de la VM e interprete por qué la función consume esa cantidad de CPU.
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/dese.PNG)
+
+ Debido a que nuestra maquina virtual tiene unas especificaciones muy bajas consume mayor CPU que otras.
+ 
 6. Adjunte la imagen del resumen de la ejecución de Postman. Interprete:
     * Tiempos de ejecución de cada petición.
     * Si hubo fallos documentelos y explique.
@@ -102,6 +131,5 @@ De nuevo parte 8:
 9. ¿Qué pasa con la infraestructura cuando cambia el tamaño de la VM? ¿Qué efectos negativos implica?
 10. ¿Hubo mejora en el consumo de CPU o en los tiempos de respuesta? Si/No ¿Por qué?
 11. Aumente la cantidad de ejecuciones paralelas del comando de postman a `4`. ¿El comportamiento del sistema es porcentualmente mejor?
-
 
 
