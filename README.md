@@ -76,7 +76,7 @@ De nuevo parte 7:
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/1030000M.PNG)
 
 
-![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/1050000.PNG)
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/1050000M.PNG)
 
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/1090000M.PNG)
