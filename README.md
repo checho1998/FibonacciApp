@@ -167,3 +167,9 @@ De nuevo parte 9:
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.4.PNG)
 
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.5.PNG)
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.6.PNG)
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.7.PNG)
+
