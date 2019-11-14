@@ -62,6 +62,12 @@
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diezC.PNG)
 
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diezD.PNG)
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diezE.PNG)
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diezF.PNG)
+
 ## Parte 1.10 - Escalabilidad vertical
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/size.PNG)
@@ -85,6 +91,12 @@ De nuevo parte 8:
 
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/mejorado.PNG)
+
+De nuevo parte 9: 
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/92.PNG)
+
+
 
 
 **Preguntas**
@@ -136,5 +148,10 @@ De nuevo parte 8:
 9. ¿Qué pasa con la infraestructura cuando cambia el tamaño de la VM? ¿Qué efectos negativos implica?
 10. ¿Hubo mejora en el consumo de CPU o en los tiempos de respuesta? Si/No ¿Por qué?
 11. Aumente la cantidad de ejecuciones paralelas del comando de postman a `4`. ¿El comportamiento del sistema es porcentualmente mejor?
+
+
+# Parte 2 - Escalabilidad horizontal
+
+## Crear el Balanceador de Carga
 
 
