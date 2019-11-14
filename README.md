@@ -64,9 +64,9 @@
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diezD.PNG)
 
-![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diezE.PNG)
-
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diezF.PNG)
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diezE.PNG)
 
 ## Parte 1.10 - Escalabilidad vertical
 
@@ -154,4 +154,16 @@ De nuevo parte 9:
 
 ## Crear el Balanceador de Carga
 
+
+- Crear el Balanceador de Carga
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.PNG)
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.1.PNG)
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.2.PNG)
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.3.PNG)
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.4.PNG)
 
