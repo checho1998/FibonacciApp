@@ -162,6 +162,8 @@ Los resultados nos muestran que el tiempo que tardo en responder cada peticion e
 
 B2ms:
 
+ el cosumo es el mismo:
+
  ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/92.PNG)
 
 7. ¿Cuál es la diferencia entre los tamaños `B2ms` y `B1ls` (no solo busque especificaciones de infraestructura)?
@@ -172,9 +174,18 @@ B2ms = memoria 8GB Storage 16GiB CPU performance 60% max. Performance 200% max.N
 B1ls = memoria 0.5GB Storage 4GiB CPU performance 5% max. Performance 100% max.NICs 2
 
 8. ¿Aumentar el tamaño de la VM es una buena solución en este escenario?, ¿Qué pasa con la FibonacciApp cuando cambiamos el tamaño de la VM?
+ No, ya que el algoritmo no utiliza estos nuevos recursos y por eso el consumo antes y despues al igual que el tiempo de respuesta es el mismo asi que si se desea aumentar este tiempo de respuesta es necesario mejorar el algoritmo de Fibonacci.
+
+La aplicacion deja de funcionar al momento de realizar el cambio y toca volver a activarla para que vuelba estar en ejecucion.
 
 9. ¿Qué pasa con la infraestructura cuando cambia el tamaño de la VM? ¿Qué efectos negativos implica?
+
+Como lo dije anteriormente al cambiar el tamaño de los recursos de la maquina virtual ella se reinicia y es necesario volver a correr la aplicacion ya que se detiene al momento de hacer este cambio. 
+
 10. ¿Hubo mejora en el consumo de CPU o en los tiempos de respuesta? Si/No ¿Por qué?
+
+Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU disminuye pero en los tiempos de respuesta son iguales ya que la aplicacion no hace uso de estos nuevos recursos y la mejora es por que esta maquina mejora la capacidad de procesamiento y no deja que se caiga el programa y realice mas operaciones.
+
 11. Aumente la cantidad de ejecuciones paralelas del comando de postman a `4`. ¿El comportamiento del sistema es porcentualmente mejor?
 
 
