@@ -236,3 +236,17 @@ Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU dis
  - Parte 3.5 - Crear las maquinas virtuales
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.11.PNG)
+
+
+####Preguntas
+
+ - ¿Cuáles son los tipos de balanceadores de carga en Azure y en qué se diferencian?, ¿Qué es SKU, qué tipos hay y en qué se diferencian?, ¿Por qué el balanceador de carga necesita una IP pública?
+ - ¿Cuál es el propósito del Backend Pool?
+ - ¿Cuál es el propósito del Health Probe?
+ - ¿Cuál es el propósito de la Load Balancing Rule? ¿Qué tipos de sesión persistente existen, por qué esto es importante y cómo puede afectar la escalabilidad del sistema?.
+ - ¿Qué es una Virtual Network? ¿Qué es una Subnet? ¿Para qué sirven los address space y address range?
+ - ¿Qué son las Availability Zone y por qué seleccionamos 3 diferentes zonas?. ¿Qué significa que una IP sea zone-redundant?
+ - ¿Cuál es el propósito del Network Security Group?
+ - Informe de newman 1 (Punto 2)
+ - Presente el Diagrama de Despliegue de la solución.
+
