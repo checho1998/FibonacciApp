@@ -103,16 +103,25 @@ De nuevo parte 9:
 
 1. ¿Cuántos y cuáles recursos crea Azure junto con la VM?
 
- - R// Microsoft azure para cada maquina virtual crea 3 recursos en paralelo
+ - R// Microsoft azure para cada maquina virtual crea 6 recursos en paralelo
  
+ - Public IP address
+ - Network Security Group
+ - Network Interface
+ - Disk
+ - Virtual Network
+ - Storage Account
+
 2. ¿Brevemente describa para qué sirve cada recurso?
 
- - postman96: Este recurso es el encargado de manejar las interfaces de red en la maquina virtual
- - postman-ip: Este recurso es el encargado de maneja la direccion IP publica de la maquina virtual 
- - postman-nsg: Este recurso es el encargado de manejar en la maquina virtual los grupos
+ - Public IP address: Este recurso es el encargado de tener la direccion IP publica para poder comunicarse con otras maquinas u otros recursos.
+ - Network Security Group: Este recurso se encarga de dejar pasar algunas cosas y otras no para dirigir el trafico de datos hacia un grupo de red con una red virtual determinada.
+ - Network Interface: Este recurso deja a las maquinas virtuales comunicarse con recursos locales y con internet.
+ - Disk: Este recurso es el disco que se encarga de guardar todo lo de la maquina virtul.
+ - Virtual Network: Este recurso es el que deja que diferentes recursos de Azure como las maquinas y otros puedan interactuar de una forma mas segura por medio de las redes y el internet.
+ - Storage Account: Este recurso es el que guarda todos los datos como lo son archivos, tablas, discos entre otros.
  
- 
-3. ¿Al cerrar la conexión ssh con la VM, por qué se cae la aplicación que ejecutamos con el comando `npm FibonacciApp.js`? ¿Por qué debemos crear un *Inbound port rule* antes de acceder al servicio?
+ 3. ¿Al cerrar la conexión ssh con la VM, por qué se cae la aplicación que ejecutamos con el comando `npm FibonacciApp.js`? ¿Por qué debemos crear un *Inbound port rule* antes de acceder al servicio?
  
  R//:  Al cerrar la conexión ssh con la Maquina Virtual , el proceso en la aplicacion que se esta ejecutando se detiene ya que es              corrido desde la consola y al cerrarla se cae.
  
@@ -138,13 +147,32 @@ De nuevo parte 9:
  
    ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/dese.PNG)
 
-   - Debido a que nuestra maquina virtual tiene unas especificaciones muy bajas consume mayor CPU que otras.
+   - Debido a que nuestra maquina virtual tiene unas especificaciones muy bajas consume mayor CPU que otras a diferencia que cuando le activamos el B1ms que lo hace mucho mas rapido y el porcentaje de consumo es menor.
  
 6. Adjunte la imagen del resumen de la ejecución de Postman. Interprete:
     * Tiempos de ejecución de cada petición.
     * Si hubo fallos documentelos y explique.
+B1ls:
+
+Acontinuacion mostramos el resumen de las peticiones concurrentes que se le realizaron al servidor.
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/diezE.PNG)
+
+Los resultados nos muestran que el tiempo que tardo en responder cada peticion es de 24.3s, con esta cantidad de datos aproximadamente recibidos de 1.99MB y sin ningun error. 
+
+B2ms:
+
+ ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/92.PNG)
+
 7. ¿Cuál es la diferencia entre los tamaños `B2ms` y `B1ls` (no solo busque especificaciones de infraestructura)?
+
+Primero el disco `B2ms` es mucho mas cara que el disco `B1ls`.
+
+B2ms = memoria 8GB Storage 16GiB CPU performance 60% max. Performance 200% max.NICs 3
+B1ls = memoria 0.5GB Storage 4GiB CPU performance 5% max. Performance 100% max.NICs 2
+
 8. ¿Aumentar el tamaño de la VM es una buena solución en este escenario?, ¿Qué pasa con la FibonacciApp cuando cambiamos el tamaño de la VM?
+
 9. ¿Qué pasa con la infraestructura cuando cambia el tamaño de la VM? ¿Qué efectos negativos implica?
 10. ¿Hubo mejora en el consumo de CPU o en los tiempos de respuesta? Si/No ¿Por qué?
 11. Aumente la cantidad de ejecuciones paralelas del comando de postman a `4`. ¿El comportamiento del sistema es porcentualmente mejor?
