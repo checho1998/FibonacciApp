@@ -218,9 +218,6 @@ Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU dis
 - Crear las maquinas virtuales (Nodos)
 
  - Parte 3.1 - Crear las maquinas virtuales
-
-
- - Parte 3.1 - Crear las maquinas virtuales
  
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.6.PNG)
 
@@ -232,6 +229,10 @@ Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU dis
  
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.9.PNG)
 
+ - Parte 3.4 - Crear las maquinas virtuales
+
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.10.PNG)
+
+ - Parte 3.5 - Crear las maquinas virtuales
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.11.PNG)
