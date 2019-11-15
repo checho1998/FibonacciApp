@@ -194,24 +194,42 @@ Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU dis
 ## Crear el Balanceador de Carga
 
 
-- Crear el Balanceador de Carga
+- Parte 2.1 - Escalabilidad horizontal
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.PNG)
 
+ - Parte 2.2 - Escalabilidad horizontal 
+
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.1.PNG)
+
+ - Parte 2.3 - Escalabilidad horizontal
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.2.PNG)
 
+ - Parte 2.4 - Escalabilidad horizontal
+
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.3.PNG)
+
+ - Parte 2.5 - Escalabilidad horizontal
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.4.PNG)
 
+ - Crear las maquinas virtuales (Nodos)
+
+ - Parte 3.1 - Crear las maquinas virtuales
+
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.5.PNG)
 
+ - Parte 3.1 - Crear las maquinas virtuales
+ 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.6.PNG)
+
+ - Parte 3.2 - Crear las maquinas virtuales
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.7.PNG)
 
+ - Parte 3.3 - Crear las maquinas virtuales
+ 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.9.PNG)
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.10.PNG)
