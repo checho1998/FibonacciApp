@@ -225,6 +225,9 @@ Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU dis
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.7.PNG)
 
+ - Parte 3 - Crear las maquinas virtuales
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/ultima1.PNG)
 
 #### Preguntas
 
@@ -254,6 +257,10 @@ Una Subnet es un rango de direcciones IP para asignarlas a las diferentes maquin
   
  - Informe de newman 1 (Punto 2)
 
+
+ Como se puede ver en la imagen el proceso de forever es fallido y por tanto no pudimos seguir con el desarrollo de la ultima parte 2 del laboratorio.
+
+![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/ultimo2.PNG)
 
  
  - Presente el Diagrama de Despliegue de la solución.
