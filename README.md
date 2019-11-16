@@ -171,6 +171,7 @@ B2ms:
 Primero el disco `B2ms` es mucho mas cara que el disco `B1ls`.
 
 B2ms = memoria 8GB Storage 16GiB CPU performance 60% max. Performance 200% max.NICs 3
+
 B1ls = memoria 0.5GB Storage 4GiB CPU performance 5% max. Performance 100% max.NICs 2
 
 8. ¿Aumentar el tamaño de la VM es una buena solución en este escenario?, ¿Qué pasa con la FibonacciApp cuando cambiamos el tamaño de la VM?
