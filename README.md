@@ -238,15 +238,33 @@ Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU dis
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.11.PNG)
 
 
-####Preguntas
+#### Preguntas
 
  - ¿Cuáles son los tipos de balanceadores de carga en Azure y en qué se diferencian?, ¿Qué es SKU, qué tipos hay y en qué se diferencian?, ¿Por qué el balanceador de carga necesita una IP pública?
  - ¿Cuál es el propósito del Backend Pool?
+
+ R//: El proposito del backend pool es el que se encarga de recibir los datos de una manera similar a el de una aplicacion y dan respuesta, y definen como esos diferentes bakends se evaluan.
+ 
  - ¿Cuál es el propósito del Health Probe?
+ 
+ El proposito de el Health Probe es determinar o evaluar la salud y el estado de los diferentes bakends para asi distribuir la carga en de las peticiones de los usuarios.
+ 
  - ¿Cuál es el propósito de la Load Balancing Rule? ¿Qué tipos de sesión persistente existen, por qué esto es importante y cómo puede afectar la escalabilidad del sistema?.
- - ¿Qué es una Virtual Network? ¿Qué es una Subnet? ¿Para qué sirven los address space y address range?
+
+- ¿Qué es una Virtual Network? ¿Qué es una Subnet? ¿Para qué sirven los address space y address range?
+
+Una Virtual Network es un tipo de red virtual propia en la nube para el uso del usuario en la nube de Azure. 
+
+Una Subnet es un rango de direcciones IP para asignarlas a las diferentes maquinas y para eso es bueno implementar una division de una red grande en varias sub redes de esta misma.
+
+
  - ¿Qué son las Availability Zone y por qué seleccionamos 3 diferentes zonas?. ¿Qué significa que una IP sea zone-redundant?
+ 
  - ¿Cuál es el propósito del Network Security Group?
+  
+  Este recurso se encarga de dejar pasar algunas cosas y otras no para dirigir el trafico de datos hacia un grupo de red con una red virtual determinada.
+  
  - Informe de newman 1 (Punto 2)
+ 
  - Presente el Diagrama de Despliegue de la solución.
 
