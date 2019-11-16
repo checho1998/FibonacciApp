@@ -171,9 +171,11 @@ B2ms:
 Primero el disco `B2ms` es mucho mas cara que el disco `B1ls`.
 
 B2ms = memoria 8GB Storage 16GiB CPU performance 60% max. Performance 200% max.NICs 3
+
 B1ls = memoria 0.5GB Storage 4GiB CPU performance 5% max. Performance 100% max.NICs 2
 
 8. ¿Aumentar el tamaño de la VM es una buena solución en este escenario?, ¿Qué pasa con la FibonacciApp cuando cambiamos el tamaño de la VM?
+
  No, ya que el algoritmo no utiliza estos nuevos recursos y por eso el consumo antes y despues al igual que el tiempo de respuesta es el mismo asi que si se desea aumentar este tiempo de respuesta es necesario mejorar el algoritmo de Fibonacci.
 
 La aplicacion deja de funcionar al momento de realizar el cambio y toca volver a activarla para que vuelba estar en ejecucion.
@@ -185,8 +187,6 @@ Como lo dije anteriormente al cambiar el tamaño de los recursos de la maquina v
 10. ¿Hubo mejora en el consumo de CPU o en los tiempos de respuesta? Si/No ¿Por qué?
 
 Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU disminuye pero en los tiempos de respuesta son iguales ya que la aplicacion no hace uso de estos nuevos recursos y la mejora es por que esta maquina mejora la capacidad de procesamiento y no deja que se caiga el programa y realice mas operaciones.
-
-11. Aumente la cantidad de ejecuciones paralelas del comando de postman a `4`. ¿El comportamiento del sistema es porcentualmente mejor?
 
 
 # Parte 2 - Escalabilidad horizontal
@@ -225,28 +225,37 @@ Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU dis
 
 ![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.7.PNG)
 
- - Parte 3.3 - Crear las maquinas virtuales
- 
-![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.9.PNG)
 
- - Parte 3.4 - Crear las maquinas virtuales
-
-![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.10.PNG)
-
- - Parte 3.5 - Crear las maquinas virtuales
-
-![Imagenes](https://github.com/checho1998/FibonacciApp/blob/master/Imagenes/PARTE2.11.PNG)
-
-
-####Preguntas
+#### Preguntas
 
  - ¿Cuáles son los tipos de balanceadores de carga en Azure y en qué se diferencian?, ¿Qué es SKU, qué tipos hay y en qué se diferencian?, ¿Por qué el balanceador de carga necesita una IP pública?
+ 
  - ¿Cuál es el propósito del Backend Pool?
+
+ R//: El proposito del backend pool es el que se encarga de recibir los datos de una manera similar a el de una aplicacion y dan respuesta, y definen como esos diferentes bakends se evaluan.
+ 
  - ¿Cuál es el propósito del Health Probe?
+ 
+ El proposito de el Health Probe es determinar o evaluar la salud y el estado de los diferentes bakends para asi distribuir la carga en de las peticiones de los usuarios.
+ 
  - ¿Cuál es el propósito de la Load Balancing Rule? ¿Qué tipos de sesión persistente existen, por qué esto es importante y cómo puede afectar la escalabilidad del sistema?.
- - ¿Qué es una Virtual Network? ¿Qué es una Subnet? ¿Para qué sirven los address space y address range?
+
+- ¿Qué es una Virtual Network? ¿Qué es una Subnet? ¿Para qué sirven los address space y address range?
+
+Una Virtual Network es un tipo de red virtual propia en la nube para el uso del usuario en la nube de Azure. 
+
+Una Subnet es un rango de direcciones IP para asignarlas a las diferentes maquinas y para eso es bueno implementar una division de una red grande en varias sub redes de esta misma.
+
  - ¿Qué son las Availability Zone y por qué seleccionamos 3 diferentes zonas?. ¿Qué significa que una IP sea zone-redundant?
+ 
  - ¿Cuál es el propósito del Network Security Group?
+  
+  Este recurso se encarga de dejar pasar algunas cosas y otras no para dirigir el trafico de datos hacia un grupo de red con una red virtual determinada.
+  
  - Informe de newman 1 (Punto 2)
+
+
+ 
  - Presente el Diagrama de Despliegue de la solución.
+
 
