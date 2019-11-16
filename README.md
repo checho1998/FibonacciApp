@@ -1,3 +1,8 @@
+# Integrantes
+
+- Sergio Alejandro Nuñez Mendivelso
+- David Diaz Duarte
+
 # FibonacciApp
 
 # Arquitecturas de Software - ARSW
