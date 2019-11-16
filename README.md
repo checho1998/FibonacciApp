@@ -188,8 +188,6 @@ Como lo dije anteriormente al cambiar el tamaño de los recursos de la maquina v
 
 Al ver la tablas publicadas anteriormente se puede ver que el consumo de CPU disminuye pero en los tiempos de respuesta son iguales ya que la aplicacion no hace uso de estos nuevos recursos y la mejora es por que esta maquina mejora la capacidad de procesamiento y no deja que se caiga el programa y realice mas operaciones.
 
-11. Aumente la cantidad de ejecuciones paralelas del comando de postman a `4`. ¿El comportamiento del sistema es porcentualmente mejor?
-
 
 # Parte 2 - Escalabilidad horizontal
 
@@ -267,6 +265,9 @@ Una Subnet es un rango de direcciones IP para asignarlas a las diferentes maquin
   Este recurso se encarga de dejar pasar algunas cosas y otras no para dirigir el trafico de datos hacia un grupo de red con una red virtual determinada.
   
  - Informe de newman 1 (Punto 2)
+
+
  
  - Presente el Diagrama de Despliegue de la solución.
+
 
